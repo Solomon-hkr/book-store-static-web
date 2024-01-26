@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, #85798d, #c6d0dc);
+    padding: 10px;
+}
+
+header h1 {
+    color: #2d2b2b;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+header p {
+    margin-top: -20px;
+}
+
+.your-resource{
+    text-align: center;
+}
+ .search-bar{    
+    float: right;
+    margin-right: 30px;
+ }
+ 
+ .search-box{
+    background-color: rgb(232, 232, 228);
+ }
+
+.section-description{  
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #56564e, #44423e);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    margin-right: auto;
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-style: oblique;
+}
+
+
+.collection-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.book-container {
+    border: 0.5px solid rgb(157, 153, 153);
+    padding: 2px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Vertically space items evenly */
+}
+
+.book-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+
+.book-details img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    flex-grow: 1; /* Allow image to grow and take remaining space */
+    margin-bottom: 10px;
+}
+
+.book-details h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.book-details p {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+.buy-button {    
+    background-color: rgb(74, 55, 92);
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;    
+            
+    display: block;
+    margin: auto;
+
+}
+
+.buy-button:hover {
+    background-color: #785757;
+    cursor: pointer;
+} 
+
+footer{
+    text-align: center;
+}
+
