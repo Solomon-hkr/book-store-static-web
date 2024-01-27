@@ -9,45 +9,60 @@
 </head>
 <body>
     <header>
-        <a id="logo"> A B S</a>
+        <nav class="menu">
+            <a id="logo"> A B S</a>
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Category</a>
+            <a href="#">Search</a>
+            <a href="#">Contact</a>
+        </nav>
+
         <h1> Book Store Cart</h1>
         <h3>Item lists in your cart</h3>
 
+        <div class="total-cost">
+            <lable>Total cost</lable>
+            <input class="cost-box" placeholder="$$$$"><br>
+            <a href="#"> <button class="pay-button"> Pay </button> </a>           
+        </div>
+
     </header>
-    <section class="collection-category">
-        <div class="book-container">
-            <section class="book-details">
-                <img src="images/cover_1.png" alt="Image of a book Cover" width="150">
-                <h2>Killing Hemingway</h2>
-                <p><b>Author:</b> Brian D. Meeks</p>
-                <p><b>Genre:</b></p>                    
-                <p><b>Pages:</b></p>
-                <p>&copy; 2024</p>
-                <p><b>Book Description:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Consequuntur aspernatur distinctio iste nihil sed officia minima 
-                    itaque recusandae tempore fugit fugiat quibusdam veritatis repellat exercitationem,
-                     vel nemo suscipit, quia molestias?</p>
-            </section>
-            <a href="#"><button class="buy-button" > Remove </button></a>
-        </div>
-        <div class="book-container">
-            <section class="book-details">
-                <img src="images/cover_2.png" alt="Image of a book Cover" width="150">
-                <h2>Success</h2>
-                <p><b>Author:</b> Brian D. Meeks</p>
-                <p><b>Genre:</b></p>                    
-                <p><b>Pages:</b></p>
-                <p>&copy; 2024</p>
-                <p><b>Book Description:</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Consequuntur aspernatur distinctio iste nihil sed officia minima 
-                    itaque recusandae tempore fugit fugiat quibusdam veritatis repellat exercitationem,
-                     vel nemo suscipit, quia molestias?</p>   
-            </section>
-            <a href="#"> <button class="buy-button"> Remove </button> </a>
-        </div>
 
+    <main>
+        <section class="collection-category">
+            <div class="book-container">
+                <section class="book-details">
+                    <img src="images/cover_1.png" alt="Image of a book Cover" width="150">
+                    <h2>Killing Hemingway</h2>
+                    <p><b>Author:</b> Brian D. Meeks</p>
+                    <p><b>Genre:</b></p>                    
+                    <p><b>Pages:</b></p>
+                    <p>&copy; 2024</p>
+                    <p><b>Book Description:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Consequuntur aspernatur distinctio iste nihil sed officia minima 
+                        itaque recusandae tempore fugit fugiat quibusdam veritatis repellat exercitationem,
+                         vel nemo suscipit, quia molestias?</p>
+                </section>
+                <a href="#"><button class="remove-button" > Remove </button></a>
+            </div>
+            <div class="book-container">
+                <section class="book-details">
+                    <img src="images/cover_2.png" alt="Image of a book Cover" width="150">
+                    <h2>Success</h2>
+                    <p><b>Author:</b> Brian D. Meeks</p>
+                    <p><b>Genre:</b></p>                    
+                    <p><b>Pages:</b></p>
+                    <p>&copy; 2024</p>
+                    <p><b>Book Description:</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Consequuntur aspernatur distinctio iste nihil sed officia minima 
+                        itaque recusandae tempore fugit fugiat quibusdam veritatis repellat exercitationem,
+                         vel nemo suscipit, quia molestias?</p>   
+                </section>
+                <a href="#"> <button class="remove-button"> Remove </button> </a>
+            </div>
 
-
+    </main>
     
 </body>
 </html>
