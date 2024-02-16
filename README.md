@@ -14,8 +14,15 @@ Visit the "Cart" page to show case of items and payment bars.
 
 Technologies Used:- Only HTML and CSS were allowed to achieve the result; So, only those tools have been used.
 
-Author
-Solomon W.
+Author: Solomon W.
 
-License
-This project is licensed under the MIT License.
+License: This project is licensed under the MIT License.
+
+Screen shoots
+<img width="937" alt="1st" src="https://github.com/Sewman2022/book-store-static-web/assets/114194495/b227125a-ea04-4c10-93cd-c7998ed00c70">
+<img width="955" alt="3rd" src="https://github.com/Sewman2022/book-store-static-web/assets/114194495/2d33194c-f130-49ec-9573-f896def71978">
+<img width="937" alt="2nd" src="https://github.com/Sewman2022/book-store-static-web/assets/114194495/63630582-9394-487c-b33a-f6511d253945">
+
+
+
+
